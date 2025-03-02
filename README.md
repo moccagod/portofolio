@@ -47,7 +47,7 @@ vercel
 
 ## 📬 Contact
 Jika tertarik untuk berkolaborasi atau ada pertanyaan, silakan hubungi saya melalui:
-📧 Email: your@email.com
+📧 Email: azminailalhadi.py@email.com
 🔗 LinkedIn: [linkedin.com/in/azminailalhadi](https://linkedin.com/in/azminailalhadi)
 
 ---
