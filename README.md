@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# 📌 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+Ini adalah website portofolio pribadi yang dibuat menggunakan **React + Vite**, **TypeScript**, dan **Tailwind CSS** dengan pendekatan **Atomic Design**. Website ini menampilkan pengalaman, keterampilan, proyek, serta cara untuk menghubungi saya.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Landing Page**: Menampilkan perkenalan singkat.
+- **About Me**: Informasi tentang pengalaman dan keterampilan.
+- **Portfolio Section**: Showcase proyek-proyek terbaik yang pernah saya kerjakan.
+- **Technologies Used**: Menampilkan teknologi yang dikuasai.
+- **Client Reviews**: Testimoni dari klien yang pernah bekerja sama.
+- **Get in Touch**: Formulir kontak untuk kolaborasi lebih lanjut.
+- **Responsive?**: Dalam tahap pengembangan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend**: Vite + React, TypeScript, Tailwind CSS
+- **Component Design**: Atomic Design
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/username/portfolio.git
+   cd portfolio
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. **Run development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. **Open in browser:**
+   Kunjungi `http://localhost:****` untuk melihat proyek berjalan.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Deployment
+Website ini dapat dideploy dengan mudah di platform seperti **Vercel** atau **Netlify**.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Deploy dengan Vercel:
+```bash
+vercel
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📬 Contact
+Jika tertarik untuk berkolaborasi atau ada pertanyaan, silakan hubungi saya melalui:
+📧 Email: your@email.com
+🔗 LinkedIn: [linkedin.com/in/azminailalhadi](https://linkedin.com/in/azminailalhadi)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+✨ Terima kasih telah mengunjungi portofolio saya! Semoga menginspirasi. 😊

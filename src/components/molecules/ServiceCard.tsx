@@ -15,7 +15,7 @@ interface ServiceCardProps {
 const ServiceCard = ({ image, title, description, link, buttonText }: ServiceCardProps) => {
 
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center">
+    <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center transition-transform duration-300 hover:scale-105">
       <ServiceImage src={image} alt={title} />
       <ServiceTitle title={title} />
       <ServiceDescription description={description} />

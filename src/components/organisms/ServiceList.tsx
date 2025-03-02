@@ -6,7 +6,7 @@ const services = [
     title: "Landing Page",
     description:
       "Mesmerize your customer with an innovative and engaging landing page that boosts conversions.",
-    link: "/landingpage",
+    link: "/contact",
     buttonText: "More",
   },
   {
@@ -14,7 +14,7 @@ const services = [
     title: "Company Profile",
     description:
       "Showcase your business identity with a professional company profile that builds trust and credibility.",
-    link: "/companyprofile",
+    link: "/contact",
     buttonText: "More",
   },
   {
@@ -22,7 +22,7 @@ const services = [
     title: "Design",
     description:
       "Create stunning and user-friendly designs for your brand that enhance user experience and brand identity.",
-    link: "/design",
+    link: "/contact",
     buttonText: "More",
   },
 ];

@@ -11,8 +11,8 @@ const TechSection = () => {
   ];
 
   return (
-    <section className="py-12 text-center">
-      <h2 className="text-3xl font-bold text-black">I have experience with these technologies</h2>
+    <section className="py-6 text-center bg-gray-800">
+      <h2 className="text-3xl font-bold text-white">I have experience with these technologies</h2>
       <div className="grid grid-cols-3 gap-8 mt-8 max-w-5xl mx-auto">
         {technologies.map((tech, index) => (
           <TechItem key={index} {...tech} />

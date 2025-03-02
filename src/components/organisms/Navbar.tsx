@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ links }: { links: { label: string; href: string }[] }) => {
   return (
-    <nav className="flex justify-between bg-white items-center p-4 mb-2 sticky top-0 shadow-xl">
+    <nav className="flex justify-between bg-white items-center p-4 mb-2 sticky top-0 shadow-xl z-10">
       {/* Logo dan subjudul */}
       <div className="flex flex-col">
         <span className="font-bold text-lg">
