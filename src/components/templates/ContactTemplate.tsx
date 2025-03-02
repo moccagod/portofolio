@@ -8,7 +8,7 @@ const ContactTemplate = () => {
       <Navbar
         links={[
           { label: "Home", href: "/" },
-          { label: "Portofolio", href: "/portfolio" },
+          { label: "Portofolio", href: "/portofolio" },
           { label: "Services", href: "/services" },
         ]}
       />
