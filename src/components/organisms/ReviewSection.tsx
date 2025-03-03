@@ -3,14 +3,14 @@ import ReviewCard from "../molecules/ReviewCard";
 
 const reviews = [
   {
-    image: "/images/woman.jpg",
+    image: "/portofolio//images/woman.jpg",
     name: "Celia Almeda",
     role: "CEO Company",
     review:
       "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi.",
   },
   {
-    image: "/images/man.jpg",
+    image: "/portofolio//images/man.jpg",
     name: "Frank Kinney",
     role: "Financial Director",
     review:

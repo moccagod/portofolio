@@ -2,7 +2,7 @@ import ServiceCard from "../molecules/ServiceCard";
 
 const services = [
   {
-    image: "/images/landing-page.png",
+    image: "/portofolio//images/landing-page.png",
     title: "Landing Page",
     description:
       "Mesmerize your customer with an innovative and engaging landing page that boosts conversions.",
@@ -10,7 +10,7 @@ const services = [
     buttonText: "More",
   },
   {
-    image: "/images/company.png",
+    image: "/portofolio//images/company.png",
     title: "Company Profile",
     description:
       "Showcase your business identity with a professional company profile that builds trust and credibility.",
@@ -18,7 +18,7 @@ const services = [
     buttonText: "More",
   },
   {
-    image: "/images/ui-design.png",
+    image: "/portofolio//images/ui-design.png",
     title: "Design",
     description:
       "Create stunning and user-friendly designs for your brand that enhance user experience and brand identity.",
@@ -27,7 +27,6 @@ const services = [
   },
 ];
 
-
 const ServiceList = () => {
   return (
     <section className="bg-white py-12 px-8">
@@ -35,8 +34,12 @@ const ServiceList = () => {
         <h2 className="text-3xl font-bold text-black">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {services.map((service, index) => (
-            <ServiceCard key={index} {...service} link={service.link} buttonText={service.buttonText} />
-
+            <ServiceCard
+              key={index}
+              {...service}
+              link={service.link}
+              buttonText={service.buttonText}
+            />
           ))}
         </div>
       </div>

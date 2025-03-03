@@ -2,12 +2,12 @@ import TechItem from "../molecules/TechItem";
 
 const TechSection = () => {
   const technologies = [
-    { name: "React", logo: "/images/react.png" },
-    { name: "Javascript", logo: "/images/js.png" },
-    { name: "Python", logo: "/images/py.png" },
-    { name: "HTML5", logo: "/images/html5.png" },
-    { name: "CSS3", logo: "/images/css3.png" },
-    { name: "TailwindCSS", logo: "/images/tailwind.png" },
+    { name: "React", logo: "/portofolio//images/react.png" },
+    { name: "Javascript", logo: "/portofolio//images/js.png" },
+    { name: "Python", logo: "/portofolio//images/py.png" },
+    { name: "HTML5", logo: "/portofolio//images/html5.png" },
+    { name: "CSS3", logo: "/portofolio//images/css3.png" },
+    { name: "TailwindCSS", logo: "/portofolio//images/tailwind.png" },
   ];
 
   return (

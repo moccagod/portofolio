@@ -10,7 +10,7 @@ const HeroSection = () => {
         {/* Kanan - Gambar */}
         <div className="flex-1 relative">
           <img
-            src="/images/azmi.png"
+            src="/portofolio/images/azmi.png"
             alt="Profile"
             className="w-full max-w-md rounded-xl hidden sm:inline"
           />

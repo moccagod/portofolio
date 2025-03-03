@@ -1,7 +1,7 @@
 import Navbar from "../organisms/Navbar";
 import Footer from "../organisms/Footer";
 
-const Porto = () => {
+const Portofolio = () => {
   return (
     <div>
       <Navbar
@@ -17,4 +17,4 @@ const Porto = () => {
   );
 };
 
-export default Porto;
+export default Portofolio;
