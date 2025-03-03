@@ -1,5 +1,11 @@
+// src/components/templates/HomeTemplate.tsx
 import Navbar from "../organisms/Navbar";
+import HeroSection from "../organisms/HeroSection";
 import Footer from "../organisms/Footer";
+import AboutSection from "../organisms/AboutSection";
+import JourneySection from "../organisms/JourneySection";
+import TechSection from "../organisms/TechSection";
+import GetInTouch from "../organisms/GetInTouch";
 
 const Home = () => {
   return (
@@ -11,7 +17,11 @@ const Home = () => {
           { label: "Services", href: "/services" },
         ]}
       />
-      <h1 className="text-center">Home Page</h1>
+      <HeroSection />
+      <AboutSection />
+      <JourneySection />
+      <TechSection />
+      <GetInTouch />
       <Footer />
     </div>
   );

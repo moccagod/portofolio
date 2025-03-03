@@ -20,9 +20,11 @@ const reviews = [
 
 const ReviewSection: React.FC = () => {
   return (
-    <div className="py-10 bg-white text-gray-900 text-center">
-      <h2 className="text-3xl font-bold text-black mb-6">Read what our customers say</h2>
-      <div className="flex justify-center gap-6">
+    <div className="py-10 bg-gray-800 text-gray-900 text-center">
+      <h2 className="text-3xl font-bold text-white mb-6">
+        Read what our customers say
+      </h2>
+      <div className="flex flex-wrap justify-center gap-6 px-4 max-w-screen-lg mx-auto">
         {reviews.map((review, index) => (
           <ReviewCard key={index} {...review} />
         ))}
