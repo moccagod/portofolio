@@ -6,8 +6,7 @@ const AboutSection = () => {
     >
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <p className="text-orange-400 italic text-lg mb-4">
-        "Teknologi hanyalah alat, positif dan negatif tergantung siapa yang
-        menggunakannya"
+        "Shalat, Eat, Code , Repeat!"
       </p>
       <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
         Mahasiswa Teknik Informatika semester 6 yang memiliki pengalaman kerja

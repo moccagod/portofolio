@@ -11,7 +11,7 @@ const Portofolio = () => {
           { label: "Services", href: "/services" },
         ]}
       />
-      <h1 className="text-center">Portofolio Page</h1>
+      <h1 className="text-center ">Portofolio Page</h1>
       <Footer />
     </div>
   );

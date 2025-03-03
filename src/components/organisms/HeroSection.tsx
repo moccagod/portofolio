@@ -2,7 +2,7 @@ import ProfileInfo from "../molecules/ProfileInfo";
 
 const HeroSection = () => {
   return (
-    <section className="flex items-center justify-center py-20 bg-white px-10">
+    <section className="flex items-center justify-center py-20 md:py-0 bg-white px-10">
       <div className="max-w-5xl flex flex-col md:flex-row items-center gap-36">
         {/* Kiri - Text */}
         <ProfileInfo />
