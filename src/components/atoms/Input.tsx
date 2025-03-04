@@ -1,9 +1,26 @@
-const Input = ({ placeholder }: { placeholder: string }) => {
+type InputProps = {
+  name: string;
+  type?: string;
+  placeholder: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+};
+
+const Input = ({
+  name,
+  type = "text",
+  placeholder,
+  value,
+  onChange,
+}: InputProps) => {
   return (
     <input
-      type="text"
+      type={type}
+      name={name}
       placeholder={placeholder}
-      className="w-full p-3 border rounded-lg focus:ring focus:ring-indigo-200"
+      value={value}
+      onChange={onChange}
+      className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
     />
   );
 };

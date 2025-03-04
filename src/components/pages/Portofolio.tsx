@@ -1,5 +1,6 @@
 import Navbar from "../organisms/Navbar";
 import Footer from "../organisms/Footer";
+import ProjectTable from "../organisms/ProjectTable";
 
 const Portofolio = () => {
   return (
@@ -11,7 +12,9 @@ const Portofolio = () => {
           { label: "Services", href: "/services" },
         ]}
       />
-      <h1 className="text-center ">Portofolio Page</h1>
+
+      <ProjectTable />
+
       <Footer />
     </div>
   );
