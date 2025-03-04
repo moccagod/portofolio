@@ -5,12 +5,13 @@ Ini adalah website portofolio pribadi yang dibuat menggunakan **React + Vite**, 
 
 ## ✨ Features
 - **Landing Page**: Menampilkan perkenalan singkat.
-- **About Me**: Informasi tentang pengalaman dan keterampilan.
+- **About Me**: Informasi tentang saya.
+- **Journey**: Informasi tentang pengalaman dan keterampilan.
 - **Portfolio Section**: Showcase proyek-proyek terbaik yang pernah saya kerjakan.
 - **Technologies Used**: Menampilkan teknologi yang dikuasai.
 - **Client Reviews**: Testimoni dari klien yang pernah bekerja sama.
 - **Get in Touch**: Formulir kontak untuk kolaborasi lebih lanjut.
-- **Responsive?**: Dalam tahap pengembangan.
+- **Responsive**: Dapat di akses di segala device.
 
 ## 🛠️ Tech Stack
 - **Frontend**: Vite + React, TypeScript, Tailwind CSS
