@@ -18,6 +18,22 @@ const services = [
     buttonText: "More",
   },
   {
+    image: "/portofolio//images/coding.png",
+    title: "Portofolio Website",
+    description:
+      "Showcase your work and personal brand with a sleek and modern portfolio website that leaves a lasting impression.",
+    link: "/contact",
+    buttonText: "More",
+  },
+  {
+    image: "/portofolio//images/tutor.png",
+    title: "Private Tutor",
+    description:
+      "Learn web development, data analysis, and algorithms to enhance your skills and career.",
+    link: "/contact",
+    buttonText: "More",
+  },
+  {
     image: "/portofolio//images/ui-design.png",
     title: "Design",
     description:
@@ -33,13 +49,13 @@ const ServiceList = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold text-black">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-          {services.map((service, index) => (
-            <ServiceCard
-              key={index}
-              {...service}
-              link={service.link}
-              buttonText={service.buttonText}
-            />
+          {services.slice(0, 3).map((service, index) => (
+            <ServiceCard key={index} {...service} />
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          {services.slice(3).map((service, index) => (
+            <ServiceCard key={index + 3} {...service} />
           ))}
         </div>
       </div>

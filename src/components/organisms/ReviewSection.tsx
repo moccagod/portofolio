@@ -4,10 +4,10 @@ import ReviewCard from "../molecules/ReviewCard";
 const reviews = [
   {
     image: "/portofolio//images/woman.jpg",
-    name: "Celia Almeda",
-    role: "CEO Company",
+    name: "Reeha Poja Sri Sutadi",
+    role: "Student",
     review:
-      "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi.",
+      "Mr. Azmi help me throughout my machine learning and deep learning struggle. i can pass my semester with excellent GPA",
   },
   {
     image: "/portofolio//images/man.jpg",
