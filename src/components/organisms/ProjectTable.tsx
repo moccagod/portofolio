@@ -1,6 +1,7 @@
+import { useState } from "react";
 import ProjectRow from "../molecules/ProjectRow";
 
-const projects = [
+const initialProjects = [
   {
     year: "2025",
     project: "Portofolio Azmi Nailal Hadi",
@@ -25,6 +26,39 @@ const projects = [
 ];
 
 const ProjectTable = () => {
+  const [projects, setProjects] = useState(initialProjects);
+  const [sortConfig, setSortConfig] = useState<{
+    key: string;
+    direction: "asc" | "desc";
+  } | null>(null);
+
+  // Fungsi untuk sorting
+  const handleSort = (key: "year" | "project") => {
+    let direction: "asc" | "desc" = "asc";
+    if (
+      sortConfig &&
+      sortConfig.key === key &&
+      sortConfig.direction === "asc"
+    ) {
+      direction = "desc";
+    }
+
+    const sortedProjects = [...projects].sort((a, b) => {
+      if (key === "year") {
+        return direction === "asc"
+          ? Number(a.year) - Number(b.year)
+          : Number(b.year) - Number(a.year);
+      } else {
+        return direction === "asc"
+          ? a.project.localeCompare(b.project)
+          : b.project.localeCompare(a.project);
+      }
+    });
+
+    setSortConfig({ key, direction });
+    setProjects(sortedProjects);
+  };
+
   return (
     <section className="text-black py-16 px-6">
       <h2 className="text-4xl font-bold text-center mb-10">All Projects</h2>
@@ -32,8 +66,28 @@ const ProjectTable = () => {
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-gray-700 text-gray-800 text-left">
-              <th className="py-4 px-6">Year</th>
-              <th className="py-4 px-6">Project</th>
+              <th
+                className="py-4 px-6 cursor-pointer"
+                onClick={() => handleSort("year")}
+              >
+                Year{" "}
+                {sortConfig?.key === "year"
+                  ? sortConfig.direction === "asc"
+                    ? "↑"
+                    : "↓"
+                  : ""}
+              </th>
+              <th
+                className="py-4 px-6 cursor-pointer"
+                onClick={() => handleSort("project")}
+              >
+                Project{" "}
+                {sortConfig?.key === "project"
+                  ? sortConfig.direction === "asc"
+                    ? "↑"
+                    : "↓"
+                  : ""}
+              </th>
               <th className="py-4 px-6">Made at</th>
               <th className="py-4 px-6">Built with</th>
               <th className="py-4 px-6">Link</th>
