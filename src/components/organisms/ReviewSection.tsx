@@ -10,11 +10,11 @@ const reviews = [
       "Mr. Azmi help me throughout my machine learning and deep learning struggle. i can pass my semester with excellent GPA",
   },
   {
-    image: "/portofolio//images/man.jpg",
-    name: "Frank Kinney",
-    role: "Financial Director",
+    image: "/portofolio//images/ichikawa.jpeg",
+    name: "Ichikawa Watanabe",
+    role: "Bumi Kencana Flour",
     review:
-      "Ut sem nulla pharetra diam sit amet nisl. Quis vel eros donec ac odio tempor orci dapibus.",
+      "I'm very satisfied with the Bumi Kencana Flour company profile. It’s professional, well-structured, and truly represents our brand. Highly recommended!",
   },
 ];
 
