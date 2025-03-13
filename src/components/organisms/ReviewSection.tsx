@@ -4,7 +4,7 @@ import ReviewCard from "../molecules/ReviewCard";
 const reviews = [
   {
     image: "/portofolio//images/woman.jpg",
-    name: "Reeha Poja Sri Sutadi",
+    name: "RR. Reeha Poja Sri Sutadi",
     role: "Student",
     review:
       "Mr. Azmi help me throughout my machine learning and deep learning struggle. i can pass my semester with excellent GPA",
