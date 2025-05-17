@@ -4,6 +4,13 @@ import ProjectRow from "../molecules/ProjectRow";
 const initialProjects = [
   {
     year: "2025",
+    project: "SDS Merpati",
+    company: "SDS Merpati",
+    tech: ["React", "Vite", "Javascript", "TailwindCSS", "Supabase"],
+    link: "https://moccagod.github.io/sdsmerpati/",
+  },
+  {
+    year: "2025",
     project: "Portofolio Azmi Nailal Hadi",
     company: "-",
     tech: ["React", "Vite", "TypeScript", "TailwindCSS"],
